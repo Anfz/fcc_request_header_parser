@@ -1,0 +1,14 @@
+{
+  "name": "fcc-template",
+  "version": "0.0.0",
+  "description": "A Template for all of my fcc projects",
+  "main": "server.js",
+  "repository": "",
+  "author": "Chris Beaver",
+  "dependencies": {
+    "async": "~0.2.8",
+    "express": "^3.2.6",
+    "mongodb": "^2.1.4",
+    "socket.io": "~0.9.14"
+  }
+}
