@@ -1,13 +1,12 @@
-'use strict';
+'use strict'; // best practice, enforces stict rules, saves stupid errors
 
-var express = require('express');
+var express = require('express'), 
+    routes = require('./app/routes/index.js');
 
 var app = express();
 
-app.get('/', function (req, res) {
-    res.send('Hello world!');
-});
+routes(app);
 
-app.listen(3000, function () {
-    console.log('Listening on port 3000...');
+app.listen(8080, function () {
+    console.log('Listening on port 8080...');
 });

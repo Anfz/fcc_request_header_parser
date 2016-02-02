@@ -7,7 +7,7 @@
   "author": "Chris Beaver",
   "dependencies": {
     "async": "~0.2.8",
-    "express": "^3.2.6",
+    "express": "^4.12.4",
     "mongodb": "^2.1.4",
     "nodemon": "^1.8.1",
     "socket.io": "~0.9.14"
